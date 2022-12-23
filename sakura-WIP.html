@@ -1,0 +1,115 @@
+<!-- This design is cherry-blossom themed. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sakura</title>
+    <style>
+        
+        :root {
+            --background: #ffccee;
+            --accent: #cc0055;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            background: var(--background);
+            margin: 0px;
+        }
+
+        div {
+            display: flex;
+        }
+
+        .wrapper {
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main {
+            width: 450px;
+            height: 600px;
+            border: 2px solid var(--accent);
+            color: var(--accent);
+            flex-direction: column;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+
+        .section {
+            border-bottom: 2px solid var(--accent);
+        }
+
+        .hsection {
+            flex: 1;
+            padding: 5px;
+        }
+
+        .rb {
+            border-right: 2px solid var(--accent);
+        }
+
+        .address {
+            justify-content: space-between;
+        }
+
+        .pad {
+            padding: 10px;
+        }
+
+        .title {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .s1 {
+            font-size: 30pt;
+        }
+
+        .s2 {
+            font-size: 20pt;
+        }
+
+        .col {
+            flex-direction: column;
+        }
+
+        .aesthetic {
+            letter-spacing: 0.75em;
+        }
+
+        .section-end {
+            height: 100%;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="section pad address">
+                <span class="aesthetic">sakura://</span>
+                <span>X</span>
+            </div>
+            <div class="section pad col">
+                <span class="title s1">About Me</span>
+                <span>Read about me here!</span>
+            </div>
+            <img src="https://media.tenor.com/dbGFp0hiMf4AAAAC/cherry-blossom-anime.gif" alt="" class="section">
+            <div class="section-end">
+                <div class="hsection rb">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In nulla posuere sollicitudin aliquam ultrices.</span>
+                </div>
+                <div class="hsection rb">
+                    <span>Real lame for this one Real lame for this one Real lame for this one Real lame for this one Real lame for this one Real lame for this one Real lame for this one Real lame for this one</span>
+                </div>
+                <div class="hsection">
+                    <span>das cash was on this track!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
